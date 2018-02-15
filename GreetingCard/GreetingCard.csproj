@@ -85,5 +85,11 @@
   <ItemGroup>
     <None Include="Resources\pageFlip.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spakleNoise.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magic-chime-01.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -68,5 +68,14 @@ namespace GreetingCard.Properties {
                 return ResourceManager.GetStream("pageFlip", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sparkleNoise {
+            get {
+                return ResourceManager.GetStream("sparkleNoise", resourceCulture);
+            }
+        }
     }
 }
