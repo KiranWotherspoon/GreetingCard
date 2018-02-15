@@ -82,5 +82,8 @@
   <ItemGroup>
     <None Include="Resources\starrySky.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pageFlip.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
