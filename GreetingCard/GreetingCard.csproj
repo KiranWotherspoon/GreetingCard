@@ -91,5 +91,8 @@
   <ItemGroup>
     <None Include="Resources\magic-chime-01.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writingSound.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
