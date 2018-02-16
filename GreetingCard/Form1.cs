@@ -114,7 +114,7 @@ namespace GreetingCard
             Thread.Sleep(500);
             insideCard.DrawString("Leo is easily recognizable as it has many bright stars and a distinct shape.", bodyFont, wordBrush1, 5, 485);
             Thread.Sleep(500);
-            insideCard.DrawString("The lion's mane and shoulders form a sub-group of stars called The Sickle", bodyFont, wordBrush2, 5, 505);
+            insideCard.DrawString("The lion's mane and shoulders form a sub-group of stars called The Sickle.", bodyFont, wordBrush2, 5, 505);
             Thread.Sleep(500);
             insideCard.DrawString("Leo was one of the first recognized constellations with evidence from Mesopotamia.", bodyFont, wordBrush1, 5, 525);
             Thread.Sleep(500);
