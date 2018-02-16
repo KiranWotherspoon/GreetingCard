@@ -108,7 +108,7 @@ namespace GreetingCard
             Thread.Sleep(500);
             insideCard.DrawString("It's name is latin for lion, and is represented by the Greek monster the Nemean Lion.", bodyFont, wordBrush2, 5, 425);
             Thread.Sleep(500);
-            insideCard.DrawString("The lion was known for terrorizing citizens and it's impenatrable hide.", bodyFont, wordBrush1, 5, 445);
+            insideCard.DrawString("The lion was known for terrorizing citizens and it's impenetrable hide.", bodyFont, wordBrush1, 5, 445);
             Thread.Sleep(500);
             insideCard.DrawString("The Nemean Lion was killed during the first of Heracles's 12 labours.", bodyFont, wordBrush2, 5, 465);
             Thread.Sleep(500);
@@ -118,7 +118,7 @@ namespace GreetingCard
             Thread.Sleep(500);
             insideCard.DrawString("Leo was one of the first recognized constellations with evidence from Mesopotamia.", bodyFont, wordBrush1, 5, 525);
             Thread.Sleep(500);
-            insideCard.DrawString("Meteors that appear to come from Leo are called Leonids.", bodyFont, wordBrush2, 5, 545);
+            insideCard.DrawString("Meteors that appear to come from th direction of Leo are called Leonids.", bodyFont, wordBrush2, 5, 545);
             Thread.Sleep(500);
             insideCard.DrawString("The Leonids peak during the month of November.", bodyFont, wordBrush1, 5, 565);
         }
