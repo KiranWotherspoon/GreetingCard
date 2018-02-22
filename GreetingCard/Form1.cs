@@ -44,7 +44,6 @@ namespace GreetingCard
 
             //draw title string
             Font titleFont = new Font("Verdana", 20, FontStyle.Bold);
-            Font bodyFont = new Font("Cambria", 12, FontStyle.Regular);
             insideCard.DrawString("The Leo Constellation", titleFont, wordBrush1, 10, 10);
 
             //draw stars one by one while playing sparkle sound
@@ -86,7 +85,7 @@ namespace GreetingCard
             insideCard.DrawLine(starPen, 465, 235, 365, 205);
 
             //draw stars over lines
-            insideCard.FillEllipse(starBrush, 450, 20, 10, 10); 
+            insideCard.FillEllipse(starBrush, 450, 20, 10, 10);
             insideCard.FillEllipse(starBrush, 500, 70, 10, 10);
             insideCard.FillEllipse(starBrush, 340, 140, 10, 10);
             insideCard.FillEllipse(starBrush, 360, 200, 10, 10);
@@ -98,6 +97,7 @@ namespace GreetingCard
             Thread.Sleep(1000);
 
             //set up for paragraph
+            Font bodyFont = new Font("Cambria", 12, FontStyle.Regular);
             wordBrush1.Color = (Color.DarkSlateBlue);
             SoundPlayer writing = new SoundPlayer(Properties.Resources.writingSound); 
             writing.Play();
